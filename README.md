@@ -52,4 +52,4 @@ Reactjs CRUD Application defines 5 components:
 
 ![Integrative Project Goal](https://loizenai.com/wp-content/uploads/2020/11/Project-Goal-Customer-List-3.png)
 
-[Reactjs Nodejs MongoDB CRUD Example](https://loizenai.com/reactjs-nodejs-mongodb-crud/)
+Tutorial: [Reactjs Nodejs MongoDB CRUD Example](https://loizenai.com/reactjs-nodejs-mongodb-crud/)
