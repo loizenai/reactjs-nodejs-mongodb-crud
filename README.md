@@ -1,68 +1,53 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+#Reactjs Nodejs MongoDB CRUD Example – MERN Stack Application
 
-## Available Scripts
+[Reactjs Nodejs MongoDB CRUD Example](https://loizenai.com/reactjs-nodejs-mongodb-crud/)
 
-In the project directory, you can run:
+In the tutorial, I introduce how to build an “React.js Nodejs CRUD MongoDB Example” project with the help of Ajax to POST/GET/PUT/DELETE requests with step by step coding examples:
 
-### `yarn start`
+– Nodejs project produces CRUD RestAPIs with MongoDB database using the supporting of Mongoose ODM.
+– React.js project will consume the Nodejs CRUD RestAPIs by Ajax then show up on Reactjs component’s views.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## List to do:
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+– I draw a fullstack overview Diagram Architecture from React.js Frontend to MongoDB database through Nodejs RestAPI backend.
+– Develop Nodejs CRUD RestAPIs with the supporting of Mongoose ODM.
+– Implement Reactjs CRUD application with Ajax fetching APIs to do CRUD request (Post/Get/Put/Delete) to Nodejs Backend APIs.
+– I create a testsuite with a number of integrative testcases with CRUD RestAPI requests from Reactjs to do CRUD requests to Nodejs RestAPIs Server and save/retrieve data to MongoDB database.
 
-### `yarn test`
+##Overall Architecture System: Reactjs + Nodejs + MongoDB
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![Reactjs + Nodejs + MongoDB system](https://loizenai.com/wp-content/uploads/2020/11/React.js-Nodejs-MongoDB-Diagram-Architecture.png)
 
-### `yarn build`
+- We build a backend: Nodejs CRUD Application with MongoDB that provides RestAPIs for POST/GET/PUT/DELETE data entities and store them in MongoDB database.
+- We implement React.js CRUD Application that use Ajax to interact (call/receive requests) with Nodejs CRUD application and display corresponding data in Reactjs Component.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+##Nodejs MongoDB CRUD Design Application
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+![Nodejs MongoDB CRUD Design Application](https://loizenai.com/wp-content/uploads/2020/11/Nodejs-MongoDB-CRUD-Example.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+We have 4 main blocks for the application:
 
-### `yarn eject`
+- For building RestAPIs in Nodejs application, we use Express framework.
+- For interacting with database MongoDB, we use Mongoose ODM.
+- We define APIs URL in router.js file
+- We implement how to process each API URL in controller.js file
+- We use Bootstrap and JQuery Ajax to implement frontend client.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+##Reactjs CRUD Application Design
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![Reactjs CRUD Application design](https://loizenai.com/wp-content/uploads/2020/11/Reactjs-CRUD-RestAPI-Application-Frontend-Architecture-Diagram-4.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- React.js components let you split the UI into independent, reusable pieces, and think about each piece in isolation.
+- Ajax is used by Reactjs component to fetch (post/put/get/delete) data from remote restapi by http request
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Reactjs CRUD Application defines 5 components:
 
-## Learn More
+- Home.js is used serve as the landing page for your app.
+- AppNavbar.js is used to establish a common UI feature between components.
+- CustomerList.js is used to show all customers in the web-page
+- CustomerEdit.js is used to modify the existed customer
+- App.js uses React Router to navigate between components.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+##Integrative Project Goal
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+![Integrative Project Goal](https://loizenai.com/wp-content/uploads/2020/11/Project-Goal-Customer-List-3.png)
